@@ -78,12 +78,12 @@ programa
 			deducao = 0.00
 			IRRF = baseCalc * aliquota - deducao
 		}
-		se (baseCalc >= 1903.99 e salBruto <= 2826.65){
+		se (baseCalc >= 1903.99 e baseCalc <= 2826.65){
 			aliquota = 7.5/100
 			deducao = 142.80
 			IRRF = baseCalc * aliquota - deducao
 		}
-		se (baseCalc >= 2826.66 e salBruto <= 3751.05){
+		se (baseCalc >= 2826.66 e baseCalc <= 3751.05){
 			aliquota = 15/100
 			deducao = 354.80
 			IRRF = baseCalc * aliquota - deducao
